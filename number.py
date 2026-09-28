@@ -3,20 +3,20 @@ essais = 0
 MAX = 9
 score = 100
 
-Proposition = int(input('urnumber : '))
-while Proposition != NM and essais<MAX :
+proposition = int(input('urnumber : '))
+while proposition != NM and essais<MAX :
     essais = essais + 1
     score= score - 10
-    if Proposition < NM :
+    if proposition < NM :
         print('trop petit ma go')
-    if Proposition > NM :
+    if proposition > NM :
         print('trop gros ma go')
-    Proposition = int(input('urnumber : '))
+    proposition = int(input('urnumber : '))
     
-if Proposition == NM:
+if proposition == NM:
     print('thats my ponduuu!')
 else:
     print('u lil fumbwa')
     
-print(f"you score is:{score}")
+print(f"you scored :{score}")
             
