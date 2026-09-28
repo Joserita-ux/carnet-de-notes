@@ -18,5 +18,5 @@ if proposition == NM:
 else:
     print('u lil fumbwa')
     
-print(f"you scored :{score}")
+print(f"ton score est :{score}")
             
