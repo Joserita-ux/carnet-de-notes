@@ -3,7 +3,7 @@ essais = 0
 MAX = 9
 score = 100
 
-proposition = int(input('urnumber : '))
+proposition = int(input('ton nombre(seulement des nombres entiers) : '))
 while proposition != NM and essais<MAX :
     essais = essais + 1
     score= score - 10
