@@ -18,5 +18,5 @@ if Proposition == NM:
 else:
     print('u lil fumbwa')
     
-score = print(f"you score is:{score}")
+print(f"you score is:{score}")
             
